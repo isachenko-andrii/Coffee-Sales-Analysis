@@ -41,7 +41,7 @@
   
 ## Подяки    
   
-- Дякую курсу [Аналітик даних/GoIT](https://goit.global/ua/courses/data-analytics/), частиною якого була робота над цим проєктом.  
+- Дякую курсу [Аналітик даних/GoIT](https://goit.global/ua/courses/data-analytics/), частиною якого була робота над цим проектом.  
   
 ---
   
