@@ -11,7 +11,11 @@
     
 Текст опису проекту...  
   
+- Завантажено дані з Raw_Data.xlsx до Tableau Public та створено модель даних.  
   
+  ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/raw/main/csa_3.png)  
+  
+- 
   
 ## Структура проекту  
   
