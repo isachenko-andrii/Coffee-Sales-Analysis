@@ -15,7 +15,7 @@
   
 - Завантажено дані з Raw_Data.xlsx до Tableau Public та створено модель даних.  
   
-  ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_3.p)  
+  ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_3.png)  
   
 - 
   
