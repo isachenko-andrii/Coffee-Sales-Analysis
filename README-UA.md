@@ -29,11 +29,11 @@
     
 **Name:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
-**E-mail:** isao.datastudio@gmail.com   
+**E-mail:** andrii.isachenko@gmail.com   
   
 ## Подяки    
   
-- Дякую курсу [Аналітик даних/GoIT](https://goit.global/ua/courses/data-analytics/), який був частиною цього проєкту.  
+- Дякую курсу [Аналітик даних/GoIT](https://goit.global/ua/courses/data-analytics/), частиною якого була робота над цим проєктом.  
   
 ---
   
