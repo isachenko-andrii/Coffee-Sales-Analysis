@@ -1,4 +1,4 @@
-![Project-logo](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/raw/main/project-logo.png)
+![Project-logo](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/Project-logo.png)
 #### [EN](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README.md) | [UA](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README-UA.md) Цей матеріал також доступний англійською мовою.
 ---  
 <div align="center">  
