@@ -19,7 +19,7 @@
   
 - Створено необхідні калькуляційні поля.
 
-  
+   ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_4.png)   
   
 ## Структура проекту  
   
