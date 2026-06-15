@@ -19,7 +19,13 @@
   
 - Створено необхідні калькуляційні поля.
 
-   ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_4.png)   
+   ![Calculation fields](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_4.png)
+    
+- Сформована аналітична таблиция продажів по країнах з групуванням по типах обсмаження та сортів кави, показниками кількості замовлень, обʼєму продажів, прибутку та загальної маси проданої кави.  
+  
+   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_5.png)
+
+-  
   
 ## Структура проекту  
   
