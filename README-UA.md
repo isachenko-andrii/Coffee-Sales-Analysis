@@ -86,7 +86,7 @@
 <table align="center">
   <thead>
     <tr>
-      <th>Пріоритет</th>
+      <th> Пріоритет </th>
       <th>Рекомендація</th>
       <th>Очікуваний ефект</th>
     </tr>
