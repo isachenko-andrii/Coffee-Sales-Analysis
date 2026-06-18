@@ -57,7 +57,10 @@
   
 -  Аналіз клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках.
   
-   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)  
+   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
+
+   ...
+   ...  
     
 ## Ключові висновки  
   
