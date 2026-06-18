@@ -59,7 +59,15 @@
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)  
     
-## Ключові бізнес-інсайти з проєкту  
+## Ключові висновки  
+
+
+## Стратегічні рекомендації  
+
+## Підсумок  
+
+
+
   
 
   
