@@ -1,5 +1,5 @@
 ![Project-logo](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/Project-logo.png)
-#### [EN](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README.md) | [UA](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README-UA.md) This material is also available in Ukrainian.
+#### [EN](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README.md) | [UA](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/README-UA.md) This material is also available in Ukrainian.   
 ---  
 <div align="center">  
     
@@ -9,193 +9,193 @@
   
 ## Project description  
     
-Проєкт присвячений розробці інтерактивних аналітичних дашбордів у **Tableau** на основі транзакційних даних компанії з продажу кавових зерен на трьох міжнародних ринках (США, Ірландія, Великобританія). 
-***Мета проєкту*** — перетворити сирі дані про замовлення на чіткі бізнес-інсайти для менеджменту, які дозволяють оцінити ефективність продажів, проаналізувати поведінку клієнтів, структуру прибутковості продуктового портфеля та виявити ключові часові тренди.  
+The project is dedicated to developing interactive analytical dashboards in **Tableau** based on transactional data of a coffee bean sales company in three international markets (USA, Ireland, UK).
+***Project goal*** is to transform raw order data into clear business insights for management that allow to assess sales efficiency, analyze customer behavior, product portfolio profitability structure and identify key time trends.  
   
-## Основний функціонал дашбордів  
+## Basic dashboard functionality  
   
-Проєкт розділений на два логічних блоки аналітики:  
+The project is divided into two logical blocks of analytics:  
   
-### 1. Дашборд №1: Клієнтський та продуктовий аналіз  
+### 1. Dashboard #1: Customer and Product Analysis  
   
- - **Географічна матриця продажів:** Детальна таблиця розподілу кількості замовлень, виторгу, чистого прибутку та об'єму кави (в кг) за країнами, типами обсмаження та сортами кави.  
- - **Аналіз ТОП-клієнтів за роками:** Динамічна таблиця найкращих покупців з можливістю регулювання їх кількості за допомогою параметра `Top N Customers`.  
- - **Інтерактивний Treemap:** Візуалізація клієнтської бази, де користувач може самостійно обирати метрику ранжування (Продажі, Прибуток, Кількість замовлень, Маса) через параметр `Select Measure`.  
- - **Розподіл замовлень (Box-Plot):** Аналіз розкиду ваги замовлень по кожній країні для виявлення споживчих аномалій та медіанного чека.  
+- **Geographical Sales Matrix:** Detailed table of distribution of the number of orders, revenue, net profit and coffee volume (in kg) by country, roast type and coffee variety.  
+- **Top Customers Analysis by Year:** Dynamic table of the best customers with the ability to adjust their number using the `Top N Customers` parameter.  
+- **Interactive Treemap:** Visualization of the customer base, where the user can independently choose the ranking metric (Sales, Profit, Number of orders, Weight) via the `Select Measure` parameter.  
+- **Order Distribution (Box-Plot):** Analysis of the dispersion of the weight of orders by each country to identify consumer anomalies and the median check.  
   
-### 2. Дашборд №2: Аналіз часових рядів та KPI трендів  
+### 2. Dashboard #2: Time Series and KPI Trend Analysis  
   
- - **Прибутковість та ARPPU:** Поквартальна динаміка чистого прибутку, суміщена з метрикою ARPPU (Average Revenue Per Paying User) на одній осі (Dual Axis) з побудовою ліній тренду для прогнозування масштабування бізнесу.  
- - **KPI-картка щомісячного прибутку:** Стовпчикова діаграма з автоматичним колірним кодуванням за рівнем маржинальності (Зелений: >10.5%, Жовтий: 9.5%–10.5%, Червоний: <9.5%).  
- - **Ковзне середнє продажів (Moving Average):** Зональна діаграма місячного виторгу, накладена на 12-місячну лінію ковзного середнього для згладжування сезонності та оцінки глобального тренду.  
- - **Аналіз MoM (Month-over-Month):** Щомісячна динаміка приросту або падіння продажів у порівнянні з попереднім місяцем із колірним виділенням зон росту/спаду.  
+- **Profitability and ARPPU:** Quarterly dynamics of net profit, combined with the ARPPU (Average Revenue Per Paying User) metric on a single axis (Dual Axis) with the construction of trend lines to predict business scaling.  
+- **Monthly Profit KPI Card:** Bar chart with automatic color coding by margin level (Green: >10.5%, Yellow: 9.5%–10.5%, Red: <9.5%).  
+- **Moving Average of Sales (Moving Average):** Zonal chart of monthly revenue, superimposed on a 12-month moving average line to smooth seasonality and assess the global trend.  
+- **MoM (Month-over-Month) Analysis:** Monthly dynamics of sales growth or decline compared to the previous month with color highlighting of growth/decline zones.  
+  
+---   
+  
+## Technology stack and tools  
+  
+- **Data source:** Excel (`Raw_Data.xlsx`) — 3 relational tables (`orders`, `customers`, `products`).  
+- **Data modeling:** Tableau Logical relationships (**Relationships / Data model**) by keys `Customer ID` and `Product ID` to prevent duplication of rows (Data Duplication).  
+- **Visualization tool:** Tableau Desktop / Tableau Public.  
+- **Calculations (Calculated Fields):** Complex aggregated and logical indicators have been implemented (`Profit Margin`, `ARPPU`, `Moving Average`, `CASE/IF-THEN` logic for parameters).  
   
 ---  
   
-## Технологічний стек та інструменти  
+## Project implementation  
   
- - **Джерело даних:** Excel (`Raw_Data.xlsx`) — 3 реляційні таблиці (`orders`, `customers`, `products`).  
- - **Моделювання даних:** Tableau Логічні зв'язки (**Relationships / Модель даних**) за ключами `Customer ID` та `Product ID` для запобігання дублювання рядків (Data Duplication).  
- - **Інструмент візуалізації:** Tableau Desktop / Tableau Public.  
- - **Обчислення (Calculated Fields):** Реалізовано складні агреговані та логічні індикатори (`Profit Margin`, `ARPPU`, `Moving Average`, `CASE/IF-THEN` логіка для параметрів).  
-  
----  
-  
-## Виконання проекту  
-  
-- Завантажено дані з Raw_Data.xlsx до Tableau Public та створено модель даних.  
+- Loaded data from Raw_Data.xlsx to Tableau Public and created a data model.  
   
   ![Data model](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_3.png)  
   
-- Створено необхідні калькуляційні поля.
-
-   ![Calculation fields](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_4.png)
-    
-- Сформована аналітична таблиция продажів по країнах з групуванням по типах обсмаження та сортів кави, показниками кількості замовлень, обʼєму продажів, прибутку та загальної маси проданої кави.  
+- The necessary calculation fields have been created.  
   
+   ![Calculation fields](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_4.png)  
+     
+- An analytical table of sales by country has been formed, grouped by roasting type and coffee variety, indicators of the number of orders, sales volume, profit, and total mass of coffee sold.  
+    
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_5.png)  
   
--  Аналіз клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках.
+-  Customer analysis by number of orders, sales level, profit, total mass of coffee sold by year.  
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)  
     
-## Ключові висновки  
+## Key findings    
   
-***Сильні сторони бізнесу***  
+***Strengths of the business***  
   
- - **Стабільна маржинальність:** протягом 3.5 років маржа утримується близько 10%, що свідчить про дисциплінований прайсинг та контроль витрат.    
- - **Широка клієнтська база:** 913 унікальних клієнтів без надмірної залежності від одного покупця — здоровий розподіл ризиків.  
- - **Ріст у 2021:** +13.6% продажів і +22.3% замовлень — бізнес демонструє здатність до росту.  
- - **Хороший продуктовий мікс:** 4 сорти кави × 3 обсмаження × 4 розміри = 48 позицій, що дозволяє задовольнити різні смаки.  
+- **Stable margin:** for 3.5 years, the margin has been maintained at around 10%, which indicates disciplined pricing and cost control.  
+- **Broad customer base:** 913 unique customers without excessive dependence on one buyer — healthy risk distribution.  
+- **Growth in 2021:** +13.6% sales and +22.3% orders — the business demonstrates the ability to grow.  
+- **Good product mix:** 4 coffee varieties × 3 roasts × 4 sizes = 48 items, which allows you to satisfy different tastes.  
   
-***Слабкі сторони та ризики***  
+***Weaknesses and risks***  
   
- - **Надмірна залежність від США (79% доходу):** будь-яке погіршення на американському ринку критично впливає на весь бізнес.  
- - **Програма лояльності не ефективна:** картки лояльності не стимулюють клієнтів витрачати більше ($47 vs $51).  
- - **Robusta з низькою маржею (6%):** хоча дає 20% продажів, вносить менший внесок у прибуток порівняно з вагою.  
- - **Уповільнення у 2022:** темп продажів у 2022 нижчий за попередні роки, причина потребує дослідження.  
+- **Over-reliance on the US (79% of revenue):** any deterioration in the US market critically affects the entire business.  
+- **Loyalty program is not effective:** loyalty cards do not encourage customers to spend more ($47 vs $51).  
+- **Low margin Robusta (6%):** although it gives 20% of sales, it contributes less to profit compared to weight.  
+- **Slowdown in 2022:** sales pace in 2022 is lower than previous years, the reason needs to be investigated.  
   
-***Нерозкритий потенціал***  
+***Undiscovered potential***  
   
- - **Liberica недопродається:** найвища маржа (13%), але лише 3-тє місце за обсягом — є можливість збільшити продажі через маркетинг.  
- - **Ірландія та Великобританія недорозвинені:** 21% частки для двох країн при аналогічній маржі з США — потенціал для географічної диверсифікації.  
- - **Великі упаковки (2.5 кг):** генерують 53% доходу, але не є предметом активного просування — варто посилити фокус.  
-    
-## Стратегічні рекомендації  
-
+- **Liberica is undersold:** highest margin (13%), but only 3rd in volume — there is an opportunity to increase sales through marketing.  
+- **Ireland and the UK are underdeveloped:** 21% share for the two countries with a similar margin with the US — potential for geographical diversification.  
+- **Large packs (2.5 kg):** generate 53% of revenue, but are not the subject of active promotion — it is worth increasing focus.  
+  
+## Strategic recommendations  
+  
 <table align="center">
-  <thead>
-    <tr>
-      <th> Пріоритет </th>
-      <th>Рекомендація</th>
-      <th>Очікуваний ефект</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> 🔴Критично   </td>
-      <td>
-          Дослідити причину падіння у 2022: порівняти місячні продажі з 2021, виявити втрачених клієнтів чи зниження середнього чеку.
-      </td>
-      <td>
-          Зупинити спад, відновити ріст.
-      </td>
-    </tr>
-     <tr>
-      <td> 🔴Критично   </td>
-      <td>
-          Переглянути програму лояльності: додати реальні стимули (знижки на 2.5 кг упаковки, бонуси за обсяг), щоб картки стимулювали вищі витрати.
-      </td>
-      <td>
-          Збільшити ARPPU лояльних клієнтів на 10%+
-      </td>
-    </tr>
-    <tr>
-      <td> 🟡Важливо   </td>
-      <td>
-          Збільшити маркетинговий бюджет на Liberica: провести кампанії про унікальний смак і преміальність, позиціонувати як топ-продукт.
-      </td>
-      <td>
-          Збільшити частку Liberica з 27% до 33%+
-      </td>
-    </tr>
-    <tr>
-      <td> 🟡Важливо   </td>
-      <td>
-          Розробити стратегію виходу на ринок Великобританії: знайти локальних дистриб'юторів, запустити таргетовані кампанії.
-      </td>
-      <td>
-          Збільшити частку UK з 6% до 10-12%
-      </td>
-    </tr>
-    <tr>
-      <td> 🟢Можливість </td>
-      <td>
-          Запустити програму великих упаковок: знижки/бонуси при замовленні 2.5 кг, пакетні пропозиції для постійних клієнтів.
-      </td>
-      <td>
-          Збільшити середній обсяг замовлення.
-      </td>
-    </tr>
-    <tr>
-      <td> 🟢Можливість </td>
-      <td>
-          Скоротити або переглянути Robusta: при маржі 6% vs 13% Liberica — варто проаналізувати рентабельність і можливе перепозиціонування.
-      </td>
-      <td>
-          Покращити загальну маржу на 0.5-1%.
-      </td>
-    </tr>
-    <tr>
-      <td> 🟢Можливість </td>
-      <td>
-          Ввести осінній сезонний маркетинг (вер-лис): продажі природно зростають восени — варто підсилити цей тренд акціями і новими позиціям.
-      </td>
-      <td>
-          Посилити пік сезону на 15-20%.
-      </td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th> Priority </th>
+<th> Recommendation </th>
+<th> Expected effect </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 🔴Critical </td>
+<td>
+Investigate the reason for the decline in 2022: compare monthly sales with 2021, identify lost customers or a decrease in the average check.
+</td>
+<td>
+Stop the decline, restore growth.
+</td>
+</tr>
+<tr>
+<td> 🔴Critical </td>
+<td>
+Review the loyalty program: add real incentives (discounts for 2.5 kg packaging, volume bonuses) so that cards stimulate higher spending.
+</td>
+<td>
+Increase ARPPU of loyal customers by 10%+
+</td>
+</tr>
+<tr>
+<td> 🟡Important </td>
+<td>
+Increase marketing budget for Liberica: conduct campaigns about unique taste and premiumness, position as a top product.
+</td>
+<td>
+Increase Liberica share from 27% to 33%+
+</td>
+</tr>
+<tr>
+<td> 🟡Important </td>
+<td>
+Develop a strategy for entering the UK market: find local distributors, launch targeted campaigns.
+</td>
+<td>
+Increase UK share from 6% to 10-12%
+</td>
+</tr>
+<tr>
+<td> 🟢Opportunity </td>
+<td>
+Launch large package program: discounts/bonuses when ordering 2.5 kg, package offers for regular customers.
+</td>
+<td>
+Increase average order volume.
+</td>
+</tr>
+<tr>
+<td> 🟢Opportunity </td>
+<td>
+Reduce or review Robusta: with a margin of 6% vs 13% Liberica - it is worth analyzing profitability and possible repositioning.
+</td>
+<td>
+Improve overall margin by 0.5-1%.
+</td>
+</tr>
+<tr>
+<td> 🟢Opportunity </td>
+<td>
+Introduce autumn seasonal marketing (Sep-Nov): sales naturally increase in autumn - it is worth reinforcing this trend with promotions and new positions.
+</td>
+<td>
+Strengthen the peak season by 15-20%.
+</td>
+</tr>
+</tbody>
 </table>
-
-## Підсумок  
   
-Бізнес з продажу кави показує стабільну роботу з маржею ~10% протягом 3.5 років і ростом у 2021 році. Проте є два ключових виклики: уповільнення у 2022 та надмірна концентрація на американському ринку.  
+## Result  
   
-**Найвища пріоритетність** — розслідування причин спаду 2022 та реформа програми лояльності. Середньострокова можливість — агресивне просування Liberica як преміального продукту з найкращою маржею, а також розвиток ринків Ірландії та Великобританії для диверсифікації географічного ризику.  
+Coffee business shows stable performance with ~10% margin for 3.5 years and growth in 2021. However, there are two key challenges: slowdown in 2022 and excessive concentration in the US market.  
   
-**Головна рекомендація** — Фокус на якість над кількістю: просувати Liberica і великі упаковки (2.5 кг) — це комбінація, яка дає максимальний дохід з мінімальних зусиль. Водночас виправити програму лояльності, щоб вона реально утримувала клієнтів і стимулювала зростання середнього чеку.  
+**Top priority** — investigate the reasons for the 2022 downturn and reform the loyalty program. Mid-term opportunity — aggressively promote Liberica as a premium product with the best margin, as well as develop the Irish and UK markets to diversify geographical risk.  
   
-## Структура проекту  
+**Key recommendation** — Focus on quality over quantity: promote Liberica and large packages (2.5 kg) — this is a combination that gives maximum revenue with minimal effort. At the same time, fix the loyalty program so that it really retains customers and stimulates average check growth.  
   
-**Coffee-Sales-Analysis**/ — каталог проекту  
-├── data/ — дані проєкту  
-├── doc/ — технічне завдання  
-├── img — збережені графіки та дашборди  
-├── twbx/ — файли проекту  
-├── LICENSE — MIT Ліцензія  
-├── project-logo.png — обкладинка проекту  
-├── README-UA.md — опис проекту українською мовою   
-└── README.md — опис проекту англійською мовою  
+## Project structure  
   
-## Як переглянути проєкт  
+**Coffee-Sales-Analysis**/ — project catalog  
+├── data/ — project data  
+├── doc/ — technical specifications  
+├── img — saved charts and dashboards  
+├── twbx/ — project files  
+├── LICENSE — MIT License  
+├── project-logo.png — project cover  
+├── README-UA.md — project description in Ukrainian   
+└── README.md — project description in English  
   
-1. Завантажте файл проєкту `Coffee_Sales_Analysis.twbx` з цього репозиторію.  
-2. Відкрийте його за допомогою безкоштовного [Tableau Reader](https://www.tableau.com/products/reader) або Tableau Desktop.  
-3. Проєкт також опубліковано на Tableau Public: [**Посилання на проєкт**]  
+## How to view a project  
   
-## Контакти  
-    
-**Ім'я:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
+1. Download the project file `Coffee_Sales_Analysis.twbx` from this repository.  
+2. Open it with the free [Tableau Reader](https://www.tableau.com/products/reader) or Tableau Desktop.  
+3. The project is also published on Tableau Public: [**Project Link**]  
+  
+## Contacts  
+  
+**Name:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
-**E-mail:** andrii.isachenko@gmail.com   
+**Email:** andrii.isachenko@gmail.com  
   
-## Подяки    
+## Acknowledgements  
   
-- Дякую курсу [Аналітик даних/GoIT](https://goit.global/ua/courses/data-analytics/), частиною якого була робота над цим проектом.  
+- Thanks to the course [Data Analyst/GoIT](https://goit.global/ua/courses/data-analytics/), which was part of the work on this project.  
   
----
+---  
   
-**Статус проекту:** В роботі.  
-    
-**Ліцензія:** MIT Ліцензія.  
+**Project Status:** In progress.  
+  
+**License:** MIT License.  
