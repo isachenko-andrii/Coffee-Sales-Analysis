@@ -57,7 +57,7 @@ The project is divided into two logical blocks of analytics:
   
 -  Customer analysis by number of orders, sales level, profit, total mass of coffee sold by year.  
   
-   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
+   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
 
    ...
    ...  
