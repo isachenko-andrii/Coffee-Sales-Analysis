@@ -59,9 +59,9 @@
   
    ![Parameter](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
   
--  Сформовано лист з аналіз клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра.
+-  Сформовано лист з аналізом клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра.
   
-   ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
+   ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
 
    ...
    ...  
