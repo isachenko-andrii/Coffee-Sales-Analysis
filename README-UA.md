@@ -67,10 +67,14 @@
 
   ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_8.png)  
    
- - Створено параметр 'Select Measure' для надання користувачу можливості обирати критерій сегментації ТОП клієнтів    ...
+ - Створено параметр 'Select Measure' для надання користувачу можливості обирати критерій сегментації ТОП клієнтів  
 
    ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_9.png)  
    
+ - Сформовано лист з обчисленням ТОП клієнтів за обраною мірою
+
+   ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_10.png) 
+
     
 ## Ключові висновки  
   
