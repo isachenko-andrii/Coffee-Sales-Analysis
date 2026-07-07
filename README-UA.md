@@ -55,11 +55,11 @@
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_5.png)
 
--  Створені параметри для керування дашбордом у реальному часі.
+-  Створені параметри для керування дашбордом у реальному часі, а саме, можливість вибора кількості ТОП клієнтів.
   
    ![Parameter](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
   
--  Аналіз клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках.
+-  Сформовано лист з аналіз клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра.
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
 
