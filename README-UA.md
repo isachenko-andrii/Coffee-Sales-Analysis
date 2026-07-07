@@ -59,7 +59,7 @@
   
    ![Parameter](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
   
--  Сформовано лист з аналізом клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра та фільтрів за типами обсмаження та сортами кави  
+-  Сформовано аркуш з аналізом клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра та фільтрів за типами обсмаження та сортами кави  
 .  
    ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)   
   
@@ -71,11 +71,11 @@
 
    ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_9.png)  
    
- - Сформовано лист з обчисленням ТОП клієнтів за обраною мірою
+ - Сформовано  аркуш з обчисленням ТОП клієнтів за обраною мірою
 
    ![Top customers by measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_10.png) 
 
- - Сформовано лист з аналізом розподілу замовленнь з різних країн за кількістю проданої кави в кг
+ - Сформовано аркуш з аналізом розподілу замовленнь з різних країн за кількістю проданої кави в кг
 
   ![Distribution of orders by country](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_11.png)  
 
