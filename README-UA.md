@@ -79,7 +79,9 @@
 
   ![Distribution of orders by country](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_11.png)  
 
-  - ...
+  - Створено підсумковий дашборд з аналізом продажів кави та сегментацією клієнтів
+
+  ![Sales and customer analysisy](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_12.png) 
    
     
 ## Ключові висновки  
