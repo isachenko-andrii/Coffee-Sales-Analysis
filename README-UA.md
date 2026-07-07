@@ -63,8 +63,14 @@
 .  
    ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)   
   
- - Створено параметр 'Select Measure' для надання користувачу можливості обирати    ...
-   ...  
+ - Створено додаткове калькуляційне поле 'Measure for Treemap' за для подальшого використання з параметром сегментації клієнтів
+
+  ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_8.png)  
+   
+ - Створено параметр 'Select Measure' для надання користувачу можливості обирати критерій сегментації ТОП клієнтів    ...
+
+   ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_9.png)  
+   
     
 ## Ключові висновки  
   
