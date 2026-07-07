@@ -55,15 +55,15 @@
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_5.png)
 
--  Створені параметри для керування дашбордом у реальному часі, а саме, можливість вибора кількості ТОП клієнтів.
+-  Створені параметри для керування дашбордом у реальному часі 'Select Top N Customers', а саме, можливість вибора кількості ТОП клієнтів.
   
    ![Parameter](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_6.png)
   
--  Сформовано лист з аналізом клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра.
+-  Сформовано лист з аналізом клієнтів за кількостю замовлень, рівнем продажів, прибутку, загальної маси проданої кави по роках з використанням параметра та фільтрів за типах обсмаження та сортів кави  
+.  
+   ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)   
   
-   ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
-
-   ...
+ - Створено параметр 'Select Measure' для надання користувачу можливості обирати    ...
    ...  
     
 ## Ключові висновки  
