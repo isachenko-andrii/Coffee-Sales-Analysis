@@ -73,8 +73,14 @@
    
  - Сформовано лист з обчисленням ТОП клієнтів за обраною мірою
 
-   ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_10.png) 
+   ![Top customers by measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_10.png) 
 
+ - Сформовано лист з аналізом розподілу замовленнь з різних країн за кількістю проданої кави в кг
+
+  ![Distribution of orders by country](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_11.png)  
+
+  - ...
+   
     
 ## Ключові висновки  
   
