@@ -218,7 +218,7 @@
   
 ## Контакти  
     
-**Ім'я:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
+**Автор:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
 **E-mail:** andrii.isachenko@gmail.com   
   
