@@ -89,9 +89,11 @@
 
    ![Quarterly profit and ARPPU](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_13.png) 
    
- - ...
+ - Створено аркуш з візуалізацієм прибутковості за місяцями та автоматичним колірним кодуванням за рівнем маржинальності  
    
    ![Monthly profit and profitability](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_15.png)
+
+ - ...
 
     
 ## Ключові висновки  
