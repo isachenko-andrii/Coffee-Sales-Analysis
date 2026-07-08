@@ -91,9 +91,13 @@
    
  - Створено аркуш з візуалізацієм прибутковості за місяцями та автоматичним колірним кодуванням за рівнем маржинальності  
    
-   ![Monthly profit and profitability](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_15.png)
-
+   ![Monthly profit and profitability](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_15.png)  
+  
  - ...
+
+   ![Monthly sales](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_16.png)
+
+ - ...   
 
     
 ## Ключові висновки  
