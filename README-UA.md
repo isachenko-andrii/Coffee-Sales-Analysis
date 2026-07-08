@@ -83,9 +83,13 @@
 
   ![Sales and customer analysisy](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_12.png)  
 
- - ...
+** Друга частина**  
+  
+ - Створено аркуш з візуальзацією Прибутковості та ARPPU, викорстано лінійні графікі. Надано проміжні висновки
+
+   ![Quarterly profit and ARPPU](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_13.png) 
    
-   
+ - ...   
     
 ## Ключові висновки  
   
