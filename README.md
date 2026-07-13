@@ -238,6 +238,6 @@ Coffee business shows stable performance with ~10% margin for 3.5 years and grow
   
 ---  
   
-**Project Status:** In progress.  
+**Project Status:** Completed.  
   
 **License:** MIT License.  
