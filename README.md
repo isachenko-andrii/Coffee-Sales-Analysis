@@ -213,7 +213,7 @@ Coffee business shows stable performance with ~10% margin for 3.5 years and grow
 **Coffee-Sales-Analysis**/ — project catalog  
 ├── data/ — project data  
 ├── doc/ — technical specifications  
-├── img — saved charts and dashboards  
+├── img/ — saved charts and dashboards  
 ├── twbx/ — project files  
 ├── LICENSE — MIT License  
 ├── project-logo.png — project cover  
