@@ -83,7 +83,7 @@ The project is divided into two logical blocks of analytics:
     
  - Created a sheet with visualization of Profitability and ARPPU, used line graphs. Provided interim conclusions  
   
-   ![Quarterly profit and ARPPU](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_14.png) 
+   ![Quarterly profit and ARPPU](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_13.png) 
    
  - Created a sheet with visualization of profitability by month and automatic color coding by margin level  
    
