@@ -55,13 +55,52 @@ The project is divided into two logical blocks of analytics:
     
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_5.png)  
   
--  Customer analysis by number of orders, sales level, profit, total mass of coffee sold by year.  
+-  Customer analysis by number of orders, sales level, profit, total mass of coffee sold by year  
   
    ![Sales table](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_7.png)
+  
+ - An additional calculation field 'Measure for Treemap' has been created for further use with the customer segmentation parameter
 
-   ...
-   ...  
+  ![Top customers by sales level](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_8.png)  
+   
+ - Created a 'Select Measure' parameter to allow the user to choose the TOP customer segmentation criterion  
+
+   ![Select Measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_9.png)  
+   
+ - A sheet has been created with the calculation of TOP customers by the selected measure
+
+   ![Top customers by measure](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_10.png) 
+
+ - A sheet has been created with an analysis of the distribution of orders from different countries by the amount of coffee sold in kg.
+
+  ![Distribution of orders by country](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_11.png)  
+
+  - A summary dashboard with coffee sales analysis and customer segmentation was created
+
+  ![Sales and customer analysisy](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_12.png)  
+
+**Друга частина проекту**  
     
+ - Created a sheet with visualization of Profitability and ARPPU, used line graphs. Provided interim conclusions  
+  
+   ![Quarterly profit and ARPPU](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_14.png) 
+   
+ - Created a sheet with visualization of profitability by month and automatic color coding by margin level  
+   
+   ![Monthly profit and profitability](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_15.png)  
+    
+ - A sheet has been created with a chart of monthly sales over a period and a line chart that calculates the average annual sales level (average monthly value over the last 12 months)  
+    
+   ![Monthly sales](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_16.png)  
+  
+ - A sheet was created showing the monthly dynamics of sales growth/decline compared to the previous month with color highlighting of growth/decline zones  
+  
+   ![Monthly Sales Change](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_17.png)  
+  
+ - Summary dashboard created - Analysis of profit and sales dynamics (Dashboard  2: Profit and Sales Dynamics Analysis)  
+  
+   ![Profit and Sales Dynamics Analysis](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_18.png)  
+      
 ## Key findings    
   
 ***Strengths of the business***  
