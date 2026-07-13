@@ -93,13 +93,19 @@
    
    ![Monthly profit and profitability](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_15.png)  
   
- - ...
-
+ - Створено аркуш з діаграмою щомісячних продажів за період та лінійною діаграмою, що рахувує середньорічний рівень продажів (середньомісячне значення за останні 12 місяців)  
+  
    ![Monthly sales](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_16.png)
 
- - ...   
+ - Створено аркуш з відображенням щомісячної динаміки приросту/падіння продажів у порівнянні з попереднім місяцем із колірним виділенням зон росту/спаду.
 
-    
+   ![Monthly Sales Change](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_17.png)
+
+ - Створено підсумковий дашборд - Аналіз динаміки прибутку та продажів (Dashboard  2: Profit and Sales Dynamics Analysis)
+
+   ![Profit and Sales Dynamics Analysis](https://github.com/isachenko-andrii/Coffee-Sales-Analysis/blob/main/img/csa_18.png)  
+
+      
 ## Ключові висновки  
   
 ***Сильні сторони бізнесу***  
