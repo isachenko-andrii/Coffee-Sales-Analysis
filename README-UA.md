@@ -229,7 +229,7 @@
   
 1. Завантажте файл проєкту `Coffee Sales Analysis.twbx` з цього репозиторію.  
 2. Відкрийте його за допомогою безкоштовного [Tableau Reader](https://www.tableau.com/products/reader) або Tableau Desktop.  
-3. Проєкт також опубліковано на Tableau Public: [**Посилання на проєкт**]  
+3. Проєкт також опубліковано на Tableau Public: [Посилання на проєкт](https://surl.li/fhpoop)  
   
 ## Контакти  
     
