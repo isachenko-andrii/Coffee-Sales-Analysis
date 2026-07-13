@@ -222,7 +222,7 @@ Coffee business shows stable performance with ~10% margin for 3.5 years and grow
   
 ## How to view a project  
   
-1. Download the project file `Coffee_Sales_Analysis.twbx` from this repository.  
+1. Download the project file `Coffee Sales Analysis.twbx` from this repository.  
 2. Open it with the free [Tableau Reader](https://www.tableau.com/products/reader) or Tableau Desktop.  
 3. The project is also published on Tableau Public: [**Project Link**]  
   
