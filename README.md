@@ -229,6 +229,7 @@ Coffee business shows stable performance with ~10% margin for 3.5 years and grow
 ## Contacts  
   
 **Author:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
+**Position:** Junior Data Analyst  
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
 **Email:** andrii.isachenko@gmail.com  
   
